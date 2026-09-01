@@ -112,7 +112,7 @@ summary:focus-visible {
   position: relative;
   padding: 0.9rem 0 0.58rem;
   color: #354250;
-  font-size: 0.93rem;
+  font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 0.025em;
   text-decoration: none;
@@ -263,15 +263,6 @@ summary:focus-visible {
   line-height: 1.35;
 }
 
-.eyebrow {
-  margin: 0 0 0.9rem;
-  color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
 .home-title {
   max-width: 15ch;
   margin: 0;
@@ -335,9 +326,9 @@ summary:focus-visible {
 .page-title {
   margin: 0;
   color: #102536;
-  font-size: clamp(2.7rem, 6vw, 4.35rem);
-  line-height: 1.04;
-  letter-spacing: -0.035em;
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .page-intro {
@@ -487,7 +478,13 @@ summary:focus-visible {
   margin: 0;
   padding-bottom: 0.7rem;
   border-bottom: 2px solid var(--foreground);
-  font-size: 1.5rem;
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+  letter-spacing: -0.02em;
+}
+
+.project-list {
+  padding-left: 1.35rem;
+  list-style: disc;
 }
 
 .course-list {
@@ -495,6 +492,7 @@ summary:focus-visible {
   list-style: disc;
 }
 
+.project-list li::marker,
 .course-list li::marker {
   color: var(--maize);
 }
@@ -508,6 +506,15 @@ summary:focus-visible {
   color: #263744;
   font-weight: 800;
   line-height: 1.45;
+}
+
+.course-code {
+  color: var(--accent);
+}
+
+.course-term {
+  color: var(--muted);
+  font-weight: 600;
 }
 
 .course-meta {
@@ -567,7 +574,7 @@ summary:focus-visible {
   }
 
   .nav-link {
-    font-size: 0.84rem;
+    font-size: 0.96rem;
   }
 
   .page-shell {

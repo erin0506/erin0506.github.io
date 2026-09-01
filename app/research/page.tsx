@@ -100,7 +100,6 @@ export default function ResearchPage() {
       <SiteHeader active="research" />
       <main className="page-shell" id="main-content">
         <div className="content-page">
-          <p className="eyebrow">Scholarship</p>
           <h1 className="page-title">Research</h1>
           <p className="page-intro">
             My research examines how states and citizens evaluate firms in an era of
