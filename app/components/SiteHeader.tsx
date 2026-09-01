@@ -11,7 +11,7 @@ export function SiteHeader({ active }: { active: ActivePage }) {
     <header className="site-header">
       <div className="header-inner">
         <a className="site-name" href="/" aria-label="Sujin Cha, home">
-          Sujin Cha
+          SUJIN CHA
         </a>
         <nav className="site-nav" aria-label="Primary navigation">
           {navigation.map((item) => (

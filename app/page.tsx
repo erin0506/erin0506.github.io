@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 
 export const metadata: Metadata = {
@@ -27,54 +26,78 @@ export default function Home() {
                 fetchPriority="high"
               />
             </figure>
-            <div>
-              <p className="profile-title">Ph.D. Candidate, Political Science</p>
-              <p className="profile-affiliation">
-                M.A. Candidate, Statistics
-                <br />
-                <a href="https://lsa.umich.edu/polisci" target="_blank" rel="noreferrer">
-                  Department of Political Science
+            <div className="profile-details">
+              <p className="profile-line">Ph.D. Candidate</p>
+              <a
+                className="profile-link"
+                href="https://lsa.umich.edu/polisci"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Department of Political Science
+              </a>
+              <p className="profile-line profile-line-spaced">M.A. Student</p>
+              <a
+                className="profile-link"
+                href="https://lsa.umich.edu/stats"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Department of Statistics
+              </a>
+              <a
+                className="profile-link"
+                href="https://umich.edu"
+                target="_blank"
+                rel="noreferrer"
+              >
+                University of Michigan
+              </a>
+              <div className="profile-contact-links">
+                <a className="profile-link" href="mailto:sujincha@umich.edu">
+                  sujincha@umich.edu
                 </a>
-                <br />
-                <a href="https://umich.edu" target="_blank" rel="noreferrer">
-                  University of Michigan
-                </a>
-              </p>
-              <div className="profile-links">
-                <a href="mailto:sujincha@umich.edu">sujincha@umich.edu</a>
                 <a
+                  className="profile-link profile-linkedin"
                   href="https://www.linkedin.com/in/sujin-cha-290460424"
                   target="_blank"
                   rel="noreferrer"
                 >
+                  <span className="linkedin-icon" aria-hidden="true">
+                    in
+                  </span>
                   LinkedIn
                 </a>
-                <a href="/assets/Sujin_Cha_CV.pdf" target="_blank" rel="noreferrer">
-                  Curriculum Vitae
+                <a
+                  className="profile-link"
+                  href="/assets/Sujin_Cha_CV.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  CV
                 </a>
               </div>
-              <ul className="research-tags" aria-label="Research interests">
-                <li>Political Economy</li>
-                <li>Industrial Policy</li>
-                <li>Trade &amp; Investment</li>
-                <li>Global Supply Chains</li>
-                <li>Money in Politics</li>
-                <li>Korean Politics</li>
-              </ul>
+              <div className="profile-interests">
+                <h2 className="profile-interests-heading">Research Interests</h2>
+                <ul className="research-tags">
+                  <li>Political Economy</li>
+                  <li>Industrial Policy</li>
+                  <li>Trade &amp; Investment</li>
+                  <li>Global Supply Chains</li>
+                  <li>Money in Politics</li>
+                  <li>Korean Politics</li>
+                </ul>
+              </div>
             </div>
           </aside>
 
-          <section aria-labelledby="about-heading">
-            <p className="eyebrow">Welcome!</p>
-            <h1 className="home-title" id="about-heading">
-              Sujin Cha
-            </h1>
-
-            <div className="body-copy">
+          <section aria-label="About Sujin Cha">
+            <div className="body-copy home-body-copy">
               <p>
-                I am a Ph.D. candidate in Political Science and a Gerald R. Ford
-                Presidential Fellow at the University of Michigan. I specialize in
-                international and comparative political economy and am{" "}
+                <strong className="welcome-inline">Welcome!</strong> I am a Ph.D.
+                candidate in Political Science and a Gerald R. Ford Presidential Fellow
+                at the University of Michigan. I specialize in international and
+                comparative political economy and am{" "}
                 <span className="job-market-note">
                   on the 2026–27 academic job market
                 </span>.
@@ -120,7 +143,6 @@ export default function Home() {
           </section>
         </div>
       </main>
-      <SiteFooter />
     </>
   );
 }
