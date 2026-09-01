@@ -109,6 +109,38 @@ export default function ResearchPage() {
             domestic employment, and government-business relations.
           </p>
 
+          <section className="content-section" aria-labelledby="dissertation-heading">
+            <div className="section-heading-row">
+              <h2 className="section-heading" id="dissertation-heading">
+                Dissertation
+              </h2>
+            </div>
+            <article className="dissertation-entry">
+              <h3 className="dissertation-title">
+                Beyond Nationality: Domestic Embeddedness and Industrial Subsidies
+              </h3>
+              <p className="dissertation-summary">
+                Governments routinely subsidize foreign firms, even as industrial policy
+                is justified in terms of national economic development. I argue that
+                subsidy support depends not simply on firm nationality but on domestic
+                embeddedness—the extent to which firms generate visible domestic economic
+                benefits. Using firm-level data on U.S. subsidies from 2000–2023, I show
+                that foreign firms receive fewer and substantially smaller subsidies, but
+                this disadvantage narrows among labor-intensive firms. Foreign supplier
+                dependence, by contrast, does not reduce government support. Two
+                preregistered survey experiments show that citizens similarly prioritize
+                domestic economic contributions: foreign workforces and suppliers
+                substantially reduce support regardless of firm nationality, while the
+                effect of nationality is smaller and less consistent. Together, the
+                findings show that governments and citizens both look beyond nationality,
+                particularly to domestic employment, although they weigh supply chains
+                differently. Industrial policy therefore navigates economic
+                interdependence by defining which activities of globally integrated firms
+                count as sufficiently domestic to warrant public support.
+              </p>
+            </article>
+          </section>
+
           <section className="content-section" aria-labelledby="publications-heading">
             <div className="section-heading-row">
               <h2 className="section-heading" id="publications-heading">

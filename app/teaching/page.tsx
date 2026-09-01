@@ -14,32 +14,26 @@ const institutions = [
     name: "University of Michigan",
     courses: [
       {
-        year: "2025",
         title: "Introduction to World Politics",
         meta: "Course instructor: Barbara Koremenos",
       },
       {
-        year: "2024",
         title: "The Use of Social Science Computer Programs",
         meta: "Instructor · Graduate course",
       },
       {
-        year: "2023",
         title: "Mathematics for Political Science",
         meta: "Course instructor: Iain Osgood · Graduate course",
       },
       {
-        year: "2023",
         title: "Strategic Thinking in World Politics",
         meta: "Course instructor: Ishan Joshi",
       },
       {
-        year: "2022",
         title: "International Economic Relations",
         meta: "Course instructors: Ishan Joshi (Fall), Iain Osgood (Winter)",
       },
       {
-        year: "2021",
         title: "Game Theory and Formal Models",
         meta: "Course instructor: Iain Osgood",
       },
@@ -49,12 +43,10 @@ const institutions = [
     name: "ICPSR Summer Program",
     courses: [
       {
-        year: "2023",
         title: "Bayesian Modeling for the Social Sciences I",
         meta: "Course instructor: Justin Esarey",
       },
       {
-        year: "2022",
         title: "Advanced Time Series Analysis",
         meta: "Course instructors: Paul Kellstedt and Matthew Lebo",
       },
@@ -64,7 +56,6 @@ const institutions = [
     name: "Korea University",
     courses: [
       {
-        year: "2019",
         title: "Political Methodology",
         meta: "Course instructor: Sung Eun Kim",
       },
@@ -85,11 +76,6 @@ export default function TeachingPage() {
             international economic relations, game theory, political methodology,
             quantitative methods, and social science computing.
           </p>
-          <blockquote className="teaching-statement">
-            In my teaching, I connect substantive questions with analytical tools so
-            that students can move confidently between political arguments, evidence,
-            and computation.
-          </blockquote>
 
           {institutions.map((institution) => {
             const headingId = `${institution.name.replaceAll(" ", "-").toLowerCase()}-heading`;
@@ -104,8 +90,7 @@ export default function TeachingPage() {
                 </h2>
                 <ul className="course-list">
                   {institution.courses.map((course) => (
-                    <li className="course-item" key={`${course.year}-${course.title}`}>
-                      <div className="course-year">{course.year}</div>
+                    <li className="course-item" key={course.title}>
                       <div>
                         <h3 className="course-title">{course.title}</h3>
                         <p className="course-meta">{course.meta}</p>

@@ -1,21 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fbfcfd;
+  --background: #f7f9fb;
   --surface: #ffffff;
-  --foreground: #15202b;
-  --muted: #5e6b78;
-  --quiet: #788591;
-  --line: #dce3e9;
-  --line-strong: #c6d0d9;
-  --accent: #1d5b8f;
-  --accent-dark: #123f66;
-  --accent-soft: #eaf3fa;
-  --warm: #9a4d35;
-  --warm-soft: #f8eee9;
-  --focus: #f2a900;
+  --foreground: #172b3a;
+  --muted: #536675;
+  --quiet: #70818e;
+  --line: #d8e0e6;
+  --line-strong: #bdc9d2;
+  --accent: #00274c;
+  --accent-dark: #001b35;
+  --accent-soft: #edf3f7;
+  --maize: #ffcb05;
+  --maize-soft: #fff8d6;
+  --focus: #ffcb05;
   --radius: 0.35rem;
-  --shadow: 0 18px 45px rgba(31, 55, 75, 0.09);
+  --shadow: 0 18px 45px rgba(0, 39, 76, 0.1);
+  --font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -30,7 +31,7 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 1rem;
   line-height: 1.68;
   text-rendering: optimizeLegibility;
@@ -91,7 +92,6 @@ summary:focus-visible {
 
 .site-name {
   color: var(--foreground);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.55rem;
   font-weight: 700;
   letter-spacing: -0.015em;
@@ -123,7 +123,7 @@ summary:focus-visible {
   right: 0;
   bottom: -1px;
   height: 3px;
-  background: var(--accent);
+  background: var(--maize);
   content: "";
   opacity: 0;
   transform: scaleX(0.35);
@@ -236,17 +236,11 @@ summary:focus-visible {
 
 .eyebrow {
   margin: 0 0 0.9rem;
-  color: var(--warm);
+  color: var(--accent);
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-}
-
-.page-title,
-.home-title,
-.section-heading {
-  font-family: Georgia, "Times New Roman", serif;
 }
 
 .home-title {
@@ -259,23 +253,23 @@ summary:focus-visible {
 }
 
 .job-market-note {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin: 1.45rem 0 0;
-  border-left: 3px solid var(--warm);
-  background: var(--warm-soft);
-  color: #713c2b;
-  padding: 0.48rem 0.75rem;
-  font-size: 0.88rem;
+  display: inline-block;
+  margin: 0.08rem 0.12rem;
+  border: 1px solid #e4b400;
+  border-left: 3px solid var(--maize);
+  background: var(--maize-soft);
+  color: var(--accent);
+  padding: 0.16rem 0.48rem;
+  font-size: 0.92rem;
   font-weight: 800;
+  line-height: 1.35;
+  vertical-align: 0.04em;
 }
 
 .lead {
   max-width: 43rem;
   margin: 2.1rem 0 0;
   color: #2e3d49;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.25rem, 2.3vw, 1.55rem);
   line-height: 1.52;
 }
@@ -292,23 +286,6 @@ summary:focus-visible {
 
 .body-copy strong {
   color: var(--foreground);
-}
-
-.home-callout {
-  margin-top: 2.2rem;
-  padding: 1.25rem 1.35rem;
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--accent);
-  background: var(--surface);
-}
-
-.home-callout p {
-  margin: 0;
-  color: var(--muted);
-}
-
-.home-callout a {
-  font-weight: 800;
 }
 
 .content-page {
@@ -352,6 +329,25 @@ summary:focus-visible {
   letter-spacing: -0.02em;
 }
 
+.dissertation-entry {
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--maize);
+}
+
+.dissertation-title {
+  margin: 0;
+  color: var(--accent);
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.dissertation-summary {
+  margin: 0.8rem 0 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
 .section-count {
   color: var(--quiet);
   font-size: 0.78rem;
@@ -377,15 +373,13 @@ summary:focus-visible {
 }
 
 .publication-year {
-  color: var(--warm);
-  font-family: Georgia, "Times New Roman", serif;
+  color: var(--accent);
   font-size: 1.02rem;
   font-weight: 700;
 }
 
 .publication-title {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.18rem;
   font-weight: 700;
   line-height: 1.45;
@@ -420,7 +414,6 @@ summary:focus-visible {
   color: var(--accent-dark);
   padding: 0.14rem 0.45rem;
   border-radius: 999px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.045em;
@@ -436,7 +429,6 @@ summary:focus-visible {
 .project-title {
   margin: 0;
   color: #22333f;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.09rem;
   font-weight: 700;
   line-height: 1.48;
@@ -448,16 +440,6 @@ summary:focus-visible {
   font-size: 0.9rem;
 }
 
-.teaching-statement {
-  margin: 2rem 0 0;
-  padding: 1.25rem 1.4rem;
-  border-left: 4px solid var(--warm);
-  background: var(--warm-soft);
-  color: #583b31;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.08rem;
-}
-
 .institution-block {
   margin-top: 3.4rem;
 }
@@ -466,22 +448,20 @@ summary:focus-visible {
   margin: 0;
   padding-bottom: 0.7rem;
   border-bottom: 2px solid var(--foreground);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.5rem;
 }
 
-.course-item {
-  display: grid;
-  grid-template-columns: 4rem minmax(0, 1fr);
-  gap: 1rem;
-  padding: 1.1rem 0;
-  border-bottom: 1px solid var(--line);
+.course-list {
+  padding-left: 1.35rem;
+  list-style: disc;
 }
 
-.course-year {
-  color: var(--warm);
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 700;
+.course-list li::marker {
+  color: var(--maize);
+}
+
+.course-item {
+  padding: 0.65rem 0 0.65rem 0.15rem;
 }
 
 .course-title {
@@ -597,8 +577,7 @@ summary:focus-visible {
     font-size: clamp(2.65rem, 15vw, 3.8rem);
   }
 
-  .publication-item,
-  .course-item {
+  .publication-item {
     grid-template-columns: 1fr;
     gap: 0.2rem;
   }

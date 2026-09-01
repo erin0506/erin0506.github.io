@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     "Sujin Cha is a Ph.D. candidate in Political Science at the University of Michigan studying international and comparative political economy.",
   authors: [{ name: "Sujin Cha", url: "https://sujincha.com" }],
   creator: "Sujin Cha",
+  other: {
+    linkedin: "https://www.linkedin.com/in/sujin-cha-290460424",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -33,6 +36,7 @@ const personSchema = {
   url: "https://sujincha.com",
   image: "https://sujincha.com/assets/sujin-cha-headshot.jpg",
   email: "mailto:sujincha@umich.edu",
+  sameAs: ["https://www.linkedin.com/in/sujin-cha-290460424"],
   jobTitle: "Ph.D. Candidate in Political Science",
   affiliation: {
     "@type": "CollegeOrUniversity",

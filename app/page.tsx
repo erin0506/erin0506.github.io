@@ -41,7 +41,14 @@ export default function Home() {
                 </a>
               </p>
               <div className="profile-links">
-                <a href="mailto:sujincha@umich.edu">Email</a>
+                <a href="mailto:sujincha@umich.edu">sujincha@umich.edu</a>
+                <a
+                  href="https://www.linkedin.com/in/sujin-cha-290460424"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
                 <a href="/assets/Sujin_Cha_CV.pdf" target="_blank" rel="noreferrer">
                   Curriculum Vitae
                 </a>
@@ -58,57 +65,56 @@ export default function Home() {
           </aside>
 
           <section aria-labelledby="about-heading">
-            <p className="eyebrow">Welcome</p>
+            <p className="eyebrow">Welcome!</p>
             <h1 className="home-title" id="about-heading">
               Sujin Cha
             </h1>
-            <p className="job-market-note">On the 2026–27 academic job market</p>
-            <p className="lead">
-              I study how global economic integration reshapes relationships among
-              governments, firms, and citizens.
-            </p>
 
             <div className="body-copy">
               <p>
                 I am a Ph.D. candidate in Political Science and a Gerald R. Ford
                 Presidential Fellow at the University of Michigan. I specialize in
-                international and comparative political economy and am also pursuing
-                an M.A. in Statistics.
+                international and comparative political economy and am{" "}
+                <span className="job-market-note">
+                  on the 2026–27 academic job market
+                </span>.
               </p>
               <p>
-                My dissertation, <strong>Beyond Nationality: Domestic Embeddedness and
-                the Politics of Industrial Subsidy</strong>, investigates how governments
-                and the public decide which firms deserve industrial support when
-                production crosses national borders. Combining original firm-level data
-                with preregistered survey experiments, I show that firm nationality
-                matters, but visible contributions to the domestic economy—particularly
-                employment and domestic sourcing—can be even more consequential.
+                My research examines how global economic integration transforms
+                relationships among governments, firms, and citizens. My dissertation,{" "}
+                <em>
+                  Beyond Nationality: Domestic Embeddedness and the Politics of
+                  Industrial Subsidy
+                </em>
+                , investigates how governments and the public decide which firms deserve
+                industrial support when production crosses national borders. Combining
+                original firm-level data with preregistered survey experiments, I show
+                that firm nationality matters, but visible contributions to the domestic
+                economy, particularly employment and domestic sourcing, can be even more
+                consequential. My broader research examines the politics of trade,
+                multinational firms, technological innovation, and government-business
+                relations.
               </p>
               <p>
-                My broader research examines the politics of trade, multinational firms,
-                technological innovation, global supply chains, and government-business
-                relations. My work has appeared in the <em>Review of International
-                Political Economy</em>, <em>International Interactions</em>, <em>Review of
-                International Organizations</em>, <em>Journal of International
-                Development</em>, and <em>Asian Survey</em>.
-              </p>
-              <p>
+                My work has been published in the{" "}
+                <em>Review of International Political Economy</em>,{" "}
+                <em>International Interactions</em>,{" "}
+                <em>Review of International Organizations</em>,{" "}
+                <em>Journal of International Development</em>, and <em>Asian Survey</em>.
                 In my teaching, I bring together substantive questions and analytical
                 tools across international relations, political economy, and political
-                methodology. Before graduate school, I earned a B.A. and M.A. in
-                Political Science and International Relations from Korea University and
-                worked at the United Nations Industrial Development Organization.
+                methodology. I have taught nine undergraduate and graduate courses,
+                including courses in world politics, international economic relations,
+                game theory, quantitative methods, and social science computing.
               </p>
               <p>
-                Outside research and teaching, I enjoy exploring new cafés and bakeries,
-                cooking, and gardening.
+                I hold a B.A. and M.A. in Political Science and International Relations
+                from Korea University. Before graduate school, I worked at the United
+                Nations Industrial Development Organization.
               </p>
-            </div>
-
-            <div className="home-callout">
               <p>
-                Read about my <a href="/research/">research and publications</a>, or view
-                my complete <a href="/assets/Sujin_Cha_CV.pdf">curriculum vitae</a>.
+                Outside of research and teaching, I enjoy exploring new cafés and
+                bakeries, cooking, and gardening.
               </p>
             </div>
           </section>
