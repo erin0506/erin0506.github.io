@@ -27,6 +27,8 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -80,6 +82,7 @@ summary:focus-visible {
   border-bottom: 1px solid rgba(198, 208, 217, 0.86);
   background: rgba(251, 252, 253, 0.94);
   backdrop-filter: blur(12px);
+  font-family: var(--font-family);
 }
 
 .header-inner {
@@ -331,6 +334,16 @@ summary:focus-visible {
   letter-spacing: -0.02em;
 }
 
+.page-heading-row {
+  margin-bottom: 1.4rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid var(--foreground);
+}
+
+.page-heading-row + .page-intro {
+  margin-top: 0;
+}
+
 .page-intro {
   max-width: 47rem;
   margin: 1.35rem 0 0;
@@ -571,10 +584,6 @@ summary:focus-visible {
 
   .site-nav {
     gap: 1rem;
-  }
-
-  .nav-link {
-    font-size: 0.96rem;
   }
 
   .page-shell {

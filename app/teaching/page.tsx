@@ -92,7 +92,9 @@ export default function TeachingPage() {
       <SiteHeader active="teaching" />
       <main className="page-shell" id="main-content">
         <div className="content-page">
-          <h1 className="page-title">Teaching</h1>
+          <div className="page-heading-row">
+            <h1 className="page-title">Teaching</h1>
+          </div>
           <p className="page-intro">
             I have taught undergraduate and graduate courses spanning world politics,
             international economic relations, game theory, political methodology,
