@@ -105,9 +105,10 @@ export default function ResearchPage() {
           </div>
           <p className="page-intro">
             My research examines how global economic integration transforms relationships
-            among states, firms, and citizens. Across four areas—industrial policy, trade
-            politics, foreign aid and public opinion, and firm–state networks—I study the
-            evolving politics of state-led economic development under globalization.
+            among states, firms, and citizens. Across four areas: industrial policy, trade
+            and investment politics, foreign aid and public opinion, and firm–state
+            networks, I study the evolving politics of state-led economic development
+            under globalization.
           </p>
 
           <section className="content-section" aria-labelledby="dissertation-heading">
