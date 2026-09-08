@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SiteHeader } from "../components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Research",
+  title: "Research Agenda",
   description:
     "Publications, working papers, and ongoing research by political scientist Sujin Cha.",
   alternates: { canonical: "/research/" },
@@ -101,12 +101,13 @@ export default function ResearchPage() {
       <main className="page-shell" id="main-content">
         <div className="content-page">
           <div className="page-heading-row">
-            <h1 className="page-title">Research</h1>
+            <h1 className="page-title">Research Agenda</h1>
           </div>
           <p className="page-intro">
-            My research examines how states and citizens evaluate firms in an era of
-            globally fragmented production, with a focus on industrial policy, trade,
-            domestic employment, and government-business relations.
+            My research examines how global economic integration transforms relationships
+            among states, firms, and citizens. Across four areas—industrial policy, trade
+            politics, foreign aid and public opinion, and firm–state networks—I study the
+            evolving politics of state-led economic development under globalization.
           </p>
 
           <section className="content-section" aria-labelledby="dissertation-heading">
