@@ -185,12 +185,14 @@ export default function ResearchPage() {
               {workingPapers.map((paper) => (
                 <li className="project-item" key={paper.title}>
                   <h3 className="project-title">
-                    {paper.title}
+                    <a href={paper.href} target="_blank" rel="noreferrer">
+                      {paper.title} <span aria-hidden="true">↗</span>
+                    </a>
                     <span className="status-badge">{paper.status}</span>
                   </h3>
                 </li>
-              ))}
-            </ul>
+                  ))}
+              </ul>
           </section>
 
           <section className="content-section" aria-labelledby="progress-heading">
