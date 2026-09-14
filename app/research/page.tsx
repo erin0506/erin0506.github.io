@@ -50,10 +50,12 @@ const workingPapers = [
   {
     title: "Beyond Nationality: Domestic Embeddedness and Industrial Subsidies",
     status: "Under review",
+    href: "/assets/Cha_IPGE.pdf",
   },
   {
     title: "Global Firms, Domestic Jobs: Public Support for Industrial Subsidies",
     status: "Under review",
+    href: "/assets/Cha_GFDJ.pdf",
   },
 ];
 
