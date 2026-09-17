@@ -124,23 +124,7 @@ export default function ResearchPage() {
                 Beyond Nationality: Domestic Embeddedness and Industrial Subsidies
               </h3>
               <p className="dissertation-summary">
-                Governments routinely subsidize foreign firms, even as industrial policy
-                is justified in terms of national economic development. I argue that
-                subsidy support depends not simply on firm nationality but on domestic
-                embeddedness—the extent to which firms generate visible domestic economic
-                benefits. Using firm-level data on U.S. subsidies from 2000–2023, I show
-                that foreign firms receive fewer and substantially smaller subsidies, but
-                this disadvantage narrows among labor-intensive firms. Foreign supplier
-                dependence, by contrast, does not reduce government support. Two
-                preregistered survey experiments show that citizens similarly prioritize
-                domestic economic contributions: foreign workforces and suppliers
-                substantially reduce support regardless of firm nationality, while the
-                effect of nationality is smaller and less consistent. Together, the
-                findings show that governments and citizens both look beyond nationality,
-                particularly to domestic employment, although they weigh supply chains
-                differently. Industrial policy therefore navigates economic
-                interdependence by defining which activities of globally integrated firms
-                count as sufficiently domestic to warrant public support.
+                Governments routinely subsidize foreign firms, even though industrial policy is justified as advancing national economic interests. How do governments choose among globally organized firms, and do citizens evaluate potential recipients using the same logic? I argue that firm nationality and reliance on foreign suppliers represent distinct dimensions of foreignness, while employment provides a visible domestic economic contribution that can make support for a foreign firm easier to justify. I examine this argument by combining evidence on actual government allocation with two preregistered survey experiments on nationally representative samples totaling 4,000 U.S. adults. In firm-level data on U.S. subsidies from 2000 to 2023, foreign firms receive fewer subsidies and lower total amounts, but this disadvantage narrows among more labor-intensive firms. Citizens also distinguish ownership, workforce location, and supplier origin, but apply a different weighting. Foreign workforces and suppliers substantially reduce public support, while the ownership effect is smaller and less consistent. Together, the studies show that government allocation and public evaluation share attention to the same firm characteristics but do not follow the same decision rule. By connecting actual subsidy allocation to its potential public foundations, the paper shows how industrial policy navigates the tension between national objectives and globally organized firms.
               </p>
             </article>
           </section>
