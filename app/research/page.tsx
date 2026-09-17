@@ -48,7 +48,7 @@ const publications = [
 
 const workingPapers = [
   {
-    title: "Beyond Nationality: Domestic Embeddedness and Industrial Subsidies",
+    title: "Industrial Policy in a Globalized Economy: Foreign Firms, Domestic Contributions, and Subsidy Allocation",
     status: "Under review",
     href: "/assets/Cha_IPGE.pdf",
   },
