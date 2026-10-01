@@ -70,7 +70,7 @@ export default function Home() {
                 </a>
                 <a
                   className="profile-link"
-                  href="/assets/Sujin_Cha_CV.pdf"
+                  href="/assets/CV_SujinCha.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
