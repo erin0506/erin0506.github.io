@@ -94,7 +94,7 @@ export default function Home() {
                 </span>.
               </p>
               <p>
-                My research examines the politics of global economic integration, focusing on relationships among governments, firms, and citizens. 
+                My research examines how global economic integration shapes relationships among governments, firms, and citizens.
                 My dissertation investigates how firm nationality and domestic economic contributions shape government subsidies and public support for industrial policy. 
                 My broader research covers international trade, multinational firms, technological innovation, and government–business relations.
               </p>
