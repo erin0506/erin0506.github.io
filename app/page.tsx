@@ -36,15 +36,6 @@ export default function Home() {
               >
                 Department of Political Science
               </a>
-              <p className="profile-line profile-line-spaced">M.A. Student</p>
-              <a
-                className="profile-link"
-                href="https://lsa.umich.edu/stats"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Department of Statistics
-              </a>
               <a
                 className="profile-link"
                 href="https://umich.edu"
@@ -84,7 +75,7 @@ export default function Home() {
                   <li>Industrial Policy</li>
                   <li>Trade &amp; Investment</li>
                   <li>Global Supply Chains</li>
-                  <li>Money in Politics</li>
+                  <li>Public Opinion</li>
                   <li>Korean Politics</li>
                 </ul>
               </div>
