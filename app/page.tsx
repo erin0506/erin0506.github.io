@@ -4,7 +4,7 @@ import { SiteHeader } from "./components/SiteHeader";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "About Sujin Cha, a Ph.D. candidate in Political Science and Gerald R. Ford Presidential Fellow at the University of Michigan.",
+    "About Sujin Cha, a Ph.D. candidate in Political Science and Gerald R. Ford Fellow at the University of Michigan.",
   alternates: { canonical: "/" },
 };
 
@@ -103,20 +103,9 @@ export default function Home() {
                 </span>.
               </p>
               <p>
-                My research examines how global economic integration transforms
-                relationships among governments, firms, and citizens. My dissertation,{" "}
-                <em>
-                  Beyond Nationality: Domestic Embeddedness and the Politics of
-                  Industrial Subsidy
-                </em>
-                , investigates how governments and the public decide which firms deserve
-                industrial support when production crosses national borders. Combining
-                original firm-level data with preregistered survey experiments, I show
-                that firm nationality matters, but visible contributions to the domestic
-                economy, particularly employment and domestic sourcing, can be even more
-                consequential. My broader research examines the politics of trade,
-                multinational firms, technological innovation, and government-business
-                relations.
+                My research examines the politics of global economic integration, focusing on relationships among governments, firms, and citizens. 
+                My dissertation investigates how firm nationality and domestic economic contributions shape government subsidies and public support for industrial policy. 
+                My broader research covers international trade, multinational firms, technological innovation, and government–business relations.
               </p>
               <p>
                 My work has been published in the{" "}
@@ -124,20 +113,13 @@ export default function Home() {
                 <em>International Interactions</em>,{" "}
                 <em>Review of International Organizations</em>,{" "}
                 <em>Journal of International Development</em>, and <em>Asian Survey</em>.
-                In my teaching, I bring together substantive questions and analytical
-                tools across international relations, political economy, and political
-                methodology. I have taught nine undergraduate and graduate courses,
+                I have taught nine undergraduate and graduate courses,
                 including courses in world politics, international economic relations,
                 game theory, quantitative methods, and social science computing.
               </p>
               <p>
                 I hold a B.A. and M.A. in Political Science and International Relations
-                from Korea University. Before graduate school, I worked at the United
-                Nations Industrial Development Organization.
-              </p>
-              <p>
-                Outside of research and teaching, I enjoy exploring new cafés and
-                bakeries, cooking, and gardening.
+                from Korea University.
               </p>
             </div>
           </section>
