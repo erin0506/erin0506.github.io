@@ -71,12 +71,12 @@ export default function Home() {
               <div className="profile-interests">
                 <h2 className="profile-interests-heading">Research Interests</h2>
                 <ul className="research-tags">
-                  <li>Political Economy</li>
-                  <li>Industrial Policy</li>
-                  <li>Trade &amp; Investment</li>
-                  <li>Global Supply Chains</li>
-                  <li>Public Opinion</li>
-                  <li>Korean Politics</li>
+                    <li>International Political Economy</li>
+                    <li>Industrial Policy</li>
+                    <li>Trade &amp; Investment</li>
+                    <li>Global Supply Chains</li>
+                    <li>Economic Security</li>
+                    <li>Korean Politics</li>
                 </ul>
               </div>
             </div>
